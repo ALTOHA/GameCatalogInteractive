@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Game Catalog</string>
+
+    <!--Splash-->
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="lbl_title_splash">Game Catalog</string>
+    <string name="lbl_subtitle_splash">by Aldo Tobon Helu</string>
+
+    <!--Item Games-->
+    <string name="lbl_title_game">Mario Kart 8</string>
+    <string name="btn_search">Buscar</string>
+    <!-- Game Information -->
+    <string name="btn_update">Actualizar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_eliminate">Eliminar</string>
+
+
+
+
+</resources>

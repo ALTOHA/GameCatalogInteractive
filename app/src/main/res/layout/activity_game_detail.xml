@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_main_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim40"
+                android:layout_marginTop="@dimen/dim20"
+                android:layout_marginEnd="@dimen/dim40"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ic_game_logo_black" />
+
+            <EditText
+                android:id="@+id/et_game_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim40"
+                android:layout_marginTop="@dimen/dim20"
+                android:layout_marginEnd="@dimen/dim40"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:paddingStart="@dimen/dim10"
+                android:paddingEnd="@dimen/dim10"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:text="Title" />
+
+            <EditText
+                android:id="@+id/et_game_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim40"
+                android:layout_marginTop="@dimen/dim20"
+                android:layout_marginEnd="@dimen/dim40"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:paddingStart="@dimen/dim10"
+                android:paddingEnd="@dimen/dim10"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:text="Url" />
+
+            <EditText
+                android:id="@+id/et_game_genre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim40"
+                android:layout_marginTop="@dimen/dim20"
+                android:layout_marginEnd="@dimen/dim40"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:paddingStart="@dimen/dim10"
+                android:paddingEnd="@dimen/dim10"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:text="Genre" />
+
+            <EditText
+                android:id="@+id/et_game_platform"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim40"
+                android:layout_marginTop="@dimen/dim20"
+                android:layout_marginEnd="@dimen/dim40"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:paddingStart="@dimen/dim10"
+                android:paddingEnd="@dimen/dim10"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:text="Platform" />
+
+            <EditText
+                android:id="@+id/et_game_publisher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim40"
+                android:layout_marginTop="@dimen/dim20"
+                android:layout_marginEnd="@dimen/dim40"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:paddingStart="@dimen/dim10"
+                android:paddingEnd="@dimen/dim10"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:text="Publisher" />
+
+            <EditText
+                android:id="@+id/et_game_developer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim40"
+                android:layout_marginTop="@dimen/dim20"
+                android:layout_marginEnd="@dimen/dim40"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:paddingStart="@dimen/dim10"
+                android:paddingEnd="@dimen/dim10"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:text="Developer" />
+
+            <EditText
+                android:id="@+id/et_game_release_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim40"
+                android:layout_marginTop="@dimen/dim20"
+                android:layout_marginEnd="@dimen/dim40"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:paddingStart="@dimen/dim10"
+                android:paddingEnd="@dimen/dim10"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:text="Release Date" />
+
+            <EditText
+                android:id="@+id/et_game_game_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim40"
+                android:layout_marginTop="@dimen/dim20"
+                android:layout_marginEnd="@dimen/dim40"
+                android:background="@drawable/custom_input"
+                android:ems="10"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:paddingStart="@dimen/dim10"
+                android:paddingEnd="@dimen/dim10"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                tools:text="Profile Url" />
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim40"
+                android:layout_marginTop="@dimen/dim20"
+                android:layout_marginEnd="@dimen/dim40"
+                android:text="@string/btn_update" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim40"
+                android:layout_marginTop="@dimen/dim20"
+                android:layout_marginEnd="@dimen/dim40"
+                android:text="@string/btn_cancel" />
+
+            <Button
+                android:id="@+id/btn_eliminate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dim40"
+                android:layout_marginTop="@dimen/dim20"
+                android:layout_marginEnd="@dimen/dim40"
+                android:text="@string/btn_eliminate" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
